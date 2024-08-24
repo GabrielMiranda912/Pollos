@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Editar Pedido</h2>
+            <form id="editForm">
+                <input type="hidden" id="edit-id">
+                <label for="edit-nombre">Nombre:</label>
+                <input type="text" id="edit-nombre" required>
+                <label for="edit-plato">Plato:</label>
+                <input type="number" id="edit-plato" required>
+                <label for="edit-observacion">Observación:</label>
+                <input type="text" id="edit-observacion">
+                <label for="edit-precio">Precio:</label>
+                <input type="number" id="edit-precio" required>
+                <button type="submit">Guardar Cambios</button>
+                <button type="button" onclick="window.location.href='records.html'">Volver</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

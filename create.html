@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Nuevo Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Crear Nuevo Pedido</h2>
+            <form id="createForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                <label for="plato">Plato:</label>
+                <input type="number" id="plato" required>
+                <label for="observacion">Observación:</label>
+                <input type="text" id="observacion">
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" required>
+                <button type="submit">Crear</button>
+                <button type="button" onclick="window.location.href='records.html'">Volver</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
